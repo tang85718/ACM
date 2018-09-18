@@ -1,8 +1,6 @@
 package com.company;
 
-public class dfs_basic {
-
-
+public class DFS_Array {
     static int[][] map = new int[][]{
             {0, 0, 1, 0, 0},
             {0, 0, 0, 0, 1},
@@ -67,7 +65,7 @@ public class dfs_basic {
     }
 
     public static void main(String[] args) {
-        dfs_basic dfs = new dfs_basic();
+        DFS_Array dfs = new DFS_Array();
         dfs.DFS(4, 0, 1);
     }
 }
