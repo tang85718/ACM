@@ -75,7 +75,7 @@ public class BFS_Array {
                 if (map[next_x][next_y] == 2) {
                     showBook();
                     Node tailNode = queues[tail-1];
-                    System.out.printf("found target:[%d,%d] use:%d]\n", tailNode.x, tailNode.y, tailNode.step);
+                    System.out.printf("found target:[%d,%d] use:%d]\n", next_x, next_y, tailNode.step);
                     return;
                 }
             }
