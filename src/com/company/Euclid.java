@@ -1,5 +1,9 @@
 package com.company;
 
+
+/**
+ * 计算最大公因数
+ */
 public class Euclid {
 
     static int euclid(int x, int y) {
