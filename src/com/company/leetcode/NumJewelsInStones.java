@@ -6,6 +6,5 @@ public class NumJewelsInStones {
         String S = "aAAbbbb";
         String J = "aA";
 
-        S.toLowerCase();
     }
 }
