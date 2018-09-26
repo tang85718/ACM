@@ -1,10 +1,12 @@
 package com.company.algorithms;
 
+import java.util.Random;
+
 public class Shell extends Example {
     public void sort(Comparable[] a) {
         int N = a.length;
         int h = 1;
-        int c = 4;
+        int c = 5;
         while (h < N / c) {
             h = h * c + 1;
         }
@@ -21,7 +23,13 @@ public class Shell extends Example {
 
     public static void main(String[] args) {
 
-        Integer[] a = new Integer[] {23, 32, 12, 1, 2, 3, 5, 10, 11, 88, 44, 33, 2};
+        Random random = new Random();
+
+        Integer[] a = new Integer[100000];
+        for (int i = 0; i < 100000; i++) {
+            a[i] = random.nextInt(100000);
+        }
+
         Shell shell = new Shell();
         shell.sort(a);
         shell.show(a);
