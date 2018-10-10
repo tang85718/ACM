@@ -1,4 +1,4 @@
-package com.company.algorithms;
+package com.company.algorithms.sort;
 
 // 优先队列
 public class MaxPQ<T extends Comparable<T>> {

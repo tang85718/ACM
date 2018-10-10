@@ -1,4 +1,4 @@
-package com.company.algorithms;
+package com.company.algorithms.sort;
 
 public abstract class Example {
     private int exchange = 0;

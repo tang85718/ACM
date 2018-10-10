@@ -1,4 +1,4 @@
-package com.company.algorithms;
+package com.company.algorithms.sort;
 
 public class Heap {
     // This class should not be instantiated.

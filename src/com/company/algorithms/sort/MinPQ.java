@@ -1,4 +1,4 @@
-package com.company.algorithms;
+package com.company.algorithms.sort;
 
 /******************************************************************************
  *  Compilation:  javac MinPQ.java
