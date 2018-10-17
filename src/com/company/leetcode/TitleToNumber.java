@@ -16,7 +16,6 @@ public class TitleToNumber {
     }
 
     public static void main(String[] args) {
-
         int ret = titleToNumber("AZ");
         System.out.println(ret);
     }
